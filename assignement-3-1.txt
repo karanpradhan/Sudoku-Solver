@@ -1,0 +1,24 @@
+1.
+a.  The variables of the CSP are the squares in the 9 x 9 grid.  Hence there are a total of 81 variables.
+b. Their domains are the values from 1 – 9.
+c.  A variable is constrained such that its value cannot be repeated in the row it belongs to, the column it belongs to and the block it belongs to. 
+Thus we consider a CSP graph; a variable is connected to all the variables in its row, column and block with an edge. No two nodes in this graph can have the same label.  Hence the requirement is transformed into a set of binary constraints.
+d. No. These constraints are such that every number will have to occur at least once in a particular row, column and a block since no two variables have the same value.
+
+2.
+For 'ac3solvable_puzzle'
+
+821564397
+593817462
+467932815
+758241639
+136795284
+249683751
+685429173
+374156928
+912378546
+
+
+For 'dp_puzzle'
+
+No solution

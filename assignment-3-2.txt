@@ -1,0 +1,32 @@
+3.
+Yes 8 can be placed there. Since there are 8s in column 7 and column 8 column there must be an 8 in column 9 as well. However it can only be in the grid in the bottom corner as other grids already have 8. Now in that grid, due to the constraints on it by 8 in column 7 and column 8 we can have 8 only in one position i.e. the square mentioned.
+
+Yes, this suggests a general strategy that the domain of a square can be reduced by elimating those values occur in the same row, column and grid.
+
+4.
+
+615327849
+849516732
+327948561
+951463278
+732851496
+486279315
+173685924
+564792183
+298134657
+
+
+5.
+For solving the diabolical sudoku, first I will try solving it logically which is the method mentioned in the previous question. If that fails, I will have to guess the values which have been finalized. Taking a particular value into consideration, I can then try solving the sudoku. If the problem isnt solved then try guessing another value till you get a solution.
+
+6.
+
+851749623
+796321485
+243856791
+175284936
+369175842
+482693517
+524917368
+617438259
+938562174
